@@ -66,6 +66,7 @@ li a {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
+    height: 350px;
 }
 
 .center {
@@ -86,6 +87,8 @@ hr {
 .what-section {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
 }
 
 .bottom-what-section p {
@@ -106,7 +109,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 45px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .box-image {
@@ -182,17 +185,22 @@ footer p {
     .level1 {
         display: flex;
         justify-content: center;
+        height: 400px;
     }
 
     .level1-width {
         margin: 0px;
         margin-right: 15px;
         /* width: 300px; */
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .level1-image-container {
         margin-left: 15px;
         /* width: 300px; */
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .level1-image {
@@ -202,12 +210,22 @@ footer p {
     }
 
     .level2 {
-        width: 750px;
+        width: 80%;
+        height: 250px;
     }
 
     .what-section {
         display: flex;
         flex-direction: row;
+        height: 120px;
+    }
+
+    .what-right-section {
+        margin-left: 10px;
+    }
+
+    .what-left-section {
+        margin-right: 10px;
     }
 
     .level3 {
@@ -232,19 +250,43 @@ footer p {
     }
 
     .bottom-box {
-        display: block;
         grid-area: bottomBox;
     }
 
     .box {
-        width: 800px;
+        width: 600px;
     }
 }
 
 
 @media screen and (min-width: 1100px) {
     .level1 {
-        
+        height: 60vh;
+    }
+
+    .level1-width {
+        width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .level1-image-container {
+        width: 400px;
+        /* margin: auto; */
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .level2 {
+        width: 850px;
+    }
+
+    .what-section {
+        justify-content: space-around;
+    }
+
+    .level3 {
+
     }
 
 
@@ -258,7 +300,7 @@ footer p {
     }
 
     .box {
-        width: 30%;
+        width: 40%;
     }
 
     .level4 {
