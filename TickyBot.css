@@ -15,6 +15,7 @@ body {
     padding-bottom: 20px;
     margin: 0px;
     min-width: 350px;
+    font-size: 18px;
 }
 
 li {
@@ -32,6 +33,7 @@ li a {
     padding-bottom: 20px;
     padding-top: 40px;
     min-width: 390px;
+    font-size: 20px;
 }
 
 .level1-width {
@@ -51,7 +53,7 @@ li a {
 
 .level1-image {
     border-radius: 50%;
-    width: 200px;
+    width: 220px;
     min-width: 100px;
     margin-top: 20px;
 }
@@ -59,6 +61,7 @@ li a {
 .top-button {
     padding: 0.5rem;
     width: 100%;
+    font-size: 15px;
 }
 
 .level2 {
@@ -66,7 +69,8 @@ li a {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
-    height: 350px;
+    height: 470px;
+    font-size: 20px;
 }
 
 .center {
@@ -88,7 +92,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 180px;
+    height: 250px;
 }
 
 .bottom-what-section p {
@@ -109,7 +113,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 45px;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .box-image {
@@ -135,13 +139,13 @@ hr {
 .level4 {
     text-align: center;
     min-width: 390px;
-    max-width: 420px;
+    max-width: 450px;
     margin: auto;
     height: 60vh;
 }
 
 .level4-section {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -159,13 +163,15 @@ hr {
     border: none;
     border-radius: 5px;
     color: white;
+    font-size: 15px;
+    display: flex;
 }
 
 footer {
     text-align: center;
     background-color: #40596b;
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     padding: 20px;
     padding-bottom: 15px;
     min-width: 350px;
@@ -175,6 +181,10 @@ footer p {
     margin: 0px;
 }
 
+.icon {
+    width: 15%;
+}
+
 
 
 
@@ -182,10 +192,15 @@ footer p {
 
 
 @media screen and (min-width: 727px) {
+    .nav-bar {
+        font-size: 20px;
+    }
+
     .level1 {
         display: flex;
         justify-content: center;
         height: 400px;
+        font-size: 25px;
     }
 
     .level1-width {
@@ -207,17 +222,18 @@ footer p {
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
+        width: 280px;
     }
 
     .level2 {
         width: 80%;
-        height: 250px;
+        height: 350px;
     }
 
     .what-section {
         display: flex;
         flex-direction: row;
-        height: 120px;
+        height: 170px;
     }
 
     .what-right-section {
@@ -261,11 +277,12 @@ footer p {
 
 @media screen and (min-width: 1100px) {
     .level1 {
-        height: 60vh;
+        height: 700px;
+        font-size: 32px;
     }
 
     .level1-width {
-        width: 200px;
+        width: 400px;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -277,16 +294,30 @@ footer p {
         margin-bottom: auto;
     }
 
+    .level1-image {
+        width: 400px;
+    }
+
+    .top-button {
+        width: 60%;
+    }
+
     .level2 {
-        width: 850px;
+        width: 950px;
+        height: 400px;
     }
 
     .what-section {
         justify-content: space-around;
+        height: 120px;
+    }
+
+    .bottom-what-section {
+
     }
 
     .level3 {
-
+        height: 700px;
     }
 
 
@@ -296,14 +327,16 @@ footer p {
         margin-left: auto;
         margin-right: auto;
         justify-content: space-around;
-        max-width: 80%;
+        max-width: 1200px;
     }
 
     .box {
         width: 40%;
+        height: 300px;
     }
 
     .level4 {
         flex-direction: column;
+        height: 60%;
     }
 }
