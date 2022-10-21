@@ -70,7 +70,7 @@ li a {
 }
 
 .level2 {
-    width: 390px;
+    width: 380px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
@@ -116,7 +116,7 @@ hr {
 
 .box {
     border-radius: 5px;
-    width: 70%;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 45px;
@@ -154,6 +154,8 @@ code {
     max-width: 450px;
     margin: auto;
     height: 65vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .level4-section {
@@ -292,6 +294,11 @@ footer a:visited {
 
     .box {
         width: 600px;
+    }
+
+    .level4-section {
+        justify-content: space-between;
+        height: 500px;
     }
 
     .bottom-button {
