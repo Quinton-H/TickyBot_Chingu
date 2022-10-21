@@ -61,7 +61,7 @@ li a {
 .top-button {
     padding: 0.5rem;
     width: 100%;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .level2 {
@@ -156,15 +156,15 @@ hr {
 
 .bottom-button {
     padding: 0.8rem;
-    width: 200px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     background-color: #40596b;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 15px;
-    display: flex;
+    font-size: 25px;
+    height: 70px;
 }
 
 footer {
@@ -175,6 +175,7 @@ footer {
     padding: 20px;
     padding-bottom: 15px;
     min-width: 350px;
+    line-height: 25px;
 }
 
 footer p {
@@ -182,7 +183,7 @@ footer p {
 }
 
 .icon {
-    width: 15%;
+    width: 25px;
 }
 
 
@@ -223,6 +224,10 @@ footer p {
         margin-right: auto;
         margin-top: 0px;
         width: 280px;
+    }
+
+    .top-button {
+        font-size: 25px;
     }
 
     .level2 {
@@ -272,7 +277,13 @@ footer p {
     .box {
         width: 600px;
     }
+
+    .bottom-button {
+        font-size: 20px;
+    }
 }
+
+
 
 
 @media screen and (min-width: 1100px) {
@@ -282,14 +293,13 @@ footer p {
     }
 
     .level1-width {
-        width: 400px;
+        width: 600px;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     .level1-image-container {
-        width: 400px;
-        /* margin: auto; */
+        width: 600px;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -299,12 +309,16 @@ footer p {
     }
 
     .top-button {
-        width: 60%;
+        width: 300px;
+        height: 70px;
+        border-radius: 5px;
+        border: none;
     }
 
     .level2 {
-        width: 950px;
+        width: 1100px;
         height: 400px;
+        line-height: 30px;
     }
 
     .what-section {
@@ -318,6 +332,7 @@ footer p {
 
     .level3 {
         height: 700px;
+        font-size: 20px;
     }
 
 
@@ -337,6 +352,20 @@ footer p {
 
     .level4 {
         flex-direction: column;
+        justify-content: space-between;
         height: 60%;
+        font-size: 20px;
+        max-width: 570px;
+        height: 520px;
+    }
+
+    .level4-section {
+        height: 400px;
+    }
+
+    footer {
+        height: 85px;
+        font-size: 16px;
+        line-height: 25px;
     }
 }
